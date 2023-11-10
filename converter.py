@@ -18,6 +18,8 @@ def converter():
         real = float(input("Type the number in Brazilian Real: "))
         converter = real / euro
         print("Good, you have {:.2f} euros now!".format(converter))
+    else:
+        print("Invalid Option!")
 
 converter()
     
